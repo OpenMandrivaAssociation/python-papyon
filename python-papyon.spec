@@ -1,7 +1,7 @@
 %define oname   papyon
 
 Name:           python-papyon
-Version:        0.4.1
+Version:        0.4.2
 Release:        %mkrel 1
 Summary:        Python libraries for MSN Messenger network
 
@@ -15,7 +15,6 @@ BuildArch:      noarch
 BuildRequires:  python-devel
 BuildRequires:  avahi-python
 Requires:       python-OpenSSL
-Requires:       pycrypto
 Requires:       python-gobject
 
 %description
