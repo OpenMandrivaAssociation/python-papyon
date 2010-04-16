@@ -1,7 +1,7 @@
 %define oname   papyon
 
 Name:           python-papyon
-Version:        0.4.4
+Version:        0.4.6
 Release:        %mkrel 1
 Summary:        Python libraries for MSN Messenger network
 
