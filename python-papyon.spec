@@ -1,19 +1,20 @@
 %define oname   papyon
 
 Name:           python-papyon
-Version:        0.4.9
+Version:        0.5.2
 Release:        %mkrel 1
 Summary:        Python libraries for MSN Messenger network
 
 Group:          Development/Python
 License:        LGPLv2+
 URL:            http://telepathy.freedesktop.org/wiki/Papyon
-Source0:        http://telepathy.freedesktop.org/releases/%{oname}/%{oname}-%{version}.tar.gz
+Source0:        http://telepathy.freedesktop.org/releases/%{oname}/%{oname}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{oname}-%{version}-%{release}-root
 
 BuildArch:      noarch
 BuildRequires:  python-devel
 BuildRequires:  avahi-python
+Requires:	python-pycrypto
 Requires:       python-OpenSSL
 Requires:       python-gobject
 
