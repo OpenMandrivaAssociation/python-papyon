@@ -2,7 +2,7 @@
 
 Name:           python-papyon
 Version:        0.5.6
-Release:        1
+Release:        2
 Summary:        Python libraries for MSN Messenger network
 
 Group:          Development/Python
