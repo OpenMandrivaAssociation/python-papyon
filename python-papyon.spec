@@ -7,7 +7,7 @@ Summary:        Python libraries for MSN Messenger network
 
 Group:          Development/Python
 License:        LGPLv2+
-URL:            http://telepathy.freedesktop.org/wiki/Papyon
+URL:            https://telepathy.freedesktop.org/wiki/Papyon
 Source0:        http://www.freedesktop.org/software/papyon/releases/papyon-%{version}.tar.gz
 
 BuildArch:      noarch
